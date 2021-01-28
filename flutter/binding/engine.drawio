@@ -1,1 +1,94 @@
-<mxfile host="app.diagrams.net" modified="2021-01-28T13:50:15.008Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" version="14.2.7" etag="aKZmSxHHCNlICgp4K5Vx" type="github"><diagram id="In2MYo8e8q5nwO-qtbaq">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-28T14:06:28.794Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="YMVgeYh5X_s_jBoxOBg1" version="14.2.7" type="github">
+  <diagram id="In2MYo8e8q5nwO-qtbaq" name="Page-1">
+    <mxGraphModel dx="1773" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1rNRji33_E49Xjr99Grx-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1rNRji33_E49Xjr99Grx-1" target="1rNRji33_E49Xjr99Grx-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1rNRji33_E49Xjr99Grx-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="80" y="140" width="90" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="1rNRji33_E49Xjr99Grx-2" value="容器1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="100" y="150" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1rNRji33_E49Xjr99Grx-3" value="engine1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="95" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rNRji33_E49Xjr99Grx-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1rNRji33_E49Xjr99Grx-6" target="1rNRji33_E49Xjr99Grx-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1rNRji33_E49Xjr99Grx-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="240" y="140" width="90" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="1rNRji33_E49Xjr99Grx-7" value="容器2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="260" y="150" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1rNRji33_E49Xjr99Grx-8" value="engine2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="255" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rNRji33_E49Xjr99Grx-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="400" y="140" width="90" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="1rNRji33_E49Xjr99Grx-10" value="容器3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="420" y="150" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1rNRji33_E49Xjr99Grx-11" value="engine3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="415" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rNRji33_E49Xjr99Grx-16" value="每个容器（flutterActivity）在创建的时候，都会创建一个engine，&lt;br style=&quot;font-size: 16px;&quot;&gt;每个engine都会有自己生命周期，并维护注册的plugin" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="90" y="70" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1rNRji33_E49Xjr99Grx-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1rNRji33_E49Xjr99Grx-18" target="1rNRji33_E49Xjr99Grx-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1rNRji33_E49Xjr99Grx-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="80" y="405" width="90" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="1rNRji33_E49Xjr99Grx-19" value="容器1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="100" y="415" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1rNRji33_E49Xjr99Grx-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1rNRji33_E49Xjr99Grx-22" target="1rNRji33_E49Xjr99Grx-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1rNRji33_E49Xjr99Grx-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="240" y="405" width="90" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="1rNRji33_E49Xjr99Grx-23" value="容器2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="260" y="415" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1rNRji33_E49Xjr99Grx-24" value="engine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="255" y="525" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rNRji33_E49Xjr99Grx-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="400" y="405" width="90" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="1rNRji33_E49Xjr99Grx-26" value="容器3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="420" y="415" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1rNRji33_E49Xjr99Grx-27" value="engine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="415" y="525" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rNRji33_E49Xjr99Grx-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1rNRji33_E49Xjr99Grx-28" target="1rNRji33_E49Xjr99Grx-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1rNRji33_E49Xjr99Grx-28" value="engine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rNRji33_E49Xjr99Grx-29" value="engine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="95" y="535" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1rNRji33_E49Xjr99Grx-31" value="google的Flutter" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-215" y="200" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1rNRji33_E49Xjr99Grx-32" value="Boast容器的Flutter" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-245" y="480" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1rNRji33_E49Xjr99Grx-34" value="我们多容器公用一个engine，插件也只注册了一次，&lt;br&gt;如果做了消息处理器的回收，就会导致&lt;b&gt;&lt;font color=&quot;#ff3e17&quot;&gt;插件失效&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="95" y="630" width="380" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
